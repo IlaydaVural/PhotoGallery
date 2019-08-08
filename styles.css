@@ -1,0 +1,44 @@
+body {
+  background-image: url("./images/background.jpeg");
+}
+
+a:active {
+  color: purple
+}
+
+a:hover{
+  color: white
+}
+
+
+.myspace {
+  font-size: 150px;
+  font-style: oblique;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  border: 1.5px solid white;
+  /* border-color: white; */
+  width: 30%;
+  height: 200px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+  font-size: 50px;}
+}
